@@ -1,0 +1,18 @@
+n=4
+for i in range(1,n+1):
+    for s in range(i):
+        print("*",end="")
+    for h in range(2*(n-i)):
+        print("#",end="")
+    for s in range(i):
+        print("*",end="")
+    print()
+for i in range(n,0,-1):
+    for s in range(i):
+        print("*",end="")
+    for h in range(2*(n-i)):
+        print("#",end="")
+    for s in range(i):
+        print("*",end="")
+    print()                        
+            
