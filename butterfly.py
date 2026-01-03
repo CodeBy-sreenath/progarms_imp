@@ -13,6 +13,7 @@ for i in range(n,0,-1):
     for h in range(2*(n-i)):
         print("#",end="")
     for s in range(i):
-        print("*",end="")
+        print("*",end="");
     print()                        
+
             
